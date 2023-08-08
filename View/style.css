@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#app {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#textInput {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#submitButton {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 20px;
+}
