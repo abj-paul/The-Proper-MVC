@@ -1,6 +1,0 @@
-const eventSource = new EventSource('/sse');
-
-eventSource.onmessage = event => {
-  const data = JSON.parse(event.data);
-  // Process data from the server
-};

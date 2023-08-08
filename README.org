@@ -1,0 +1,13 @@
+* About
+Almost 80% implementation of MVC is wrong in the internet. Numerous industry solutions make use of a flawed MVC structure. So in this project, we try to explore the original tasks of MVC from 1970s.
+
+* Project Structure
+We use MVC using the following technologies.
+[[file:resources/mvc.png]]
+
+1. Rest API: The controller sends POST/GET/PATCH requests to update or get data from Model.
+2. DOM: The controller gets user interaction and data using DOM(Document Object Model).
+3. SSE: The server sent event is used to implement the ~observer pattern~. The clients subscribe to SSE(Server Sent Event) endpoint and whenever data changes, the server notifies all observers/clients.
+** SSE
+We use Server Sent Event in the following manner to implmenet the observer pattern.
+[[file:resources/sse.png]]
