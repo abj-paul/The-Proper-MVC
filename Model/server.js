@@ -67,7 +67,6 @@ app.listen(3000, (data)=>{
 
 
 // Persistence Logic
-
 let data = "No Message";
 
 function setData(newValue){
