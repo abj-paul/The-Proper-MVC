@@ -1,6 +1,0 @@
-
-data = "No Message";
-
-function setData(data){
-    
-}
